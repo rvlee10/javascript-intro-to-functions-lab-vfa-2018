@@ -11,5 +11,4 @@ function whisper(string) {
 "hello".toUpperCase();
 function logShout(string) {
   console.log(string.toUpperCase());
-  spyOn(console, 'log').andCallThrough()
 }
